@@ -194,14 +194,10 @@ body {
 .about-image {
   width: 16rem;
   height: 20rem;
-  background: linear-gradient(to bottom right, #374151, #111827);
   border-radius: 0.5rem;
-  overflow: hidden;
-  border: 2px solid #374151;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #4b5563;
+  border: 2px solid #4ade80;
+  object-fit: cover;
+  display: block;
 }
 
 .about-content {
